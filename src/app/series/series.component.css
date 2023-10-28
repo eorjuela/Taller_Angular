@@ -19,11 +19,13 @@ a {
 
 #series thead th {
     background-color: #ffffff;
-    color: #000000;
+    padding: 10px;
+    text-align: left;
 }
 
 #series tbody td {
+    border: solid 1px #edecec;
     background-color: #edecec;
     padding: 10px;
+    text-align: left;
 }
-
