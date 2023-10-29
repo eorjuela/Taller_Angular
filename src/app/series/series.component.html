@@ -1,13 +1,12 @@
 
-<nav class="navbar" id="body" style="background-color: #26a2b6;">
+<nav class="navbar" style="background-color: #26a2b6;">
   <div class = "container-fluid">
-      <a class="navbar-brand" href="#" style ="color:black;">
-          <img src="assets/TVlogo.jpg" alt="" width="30px" class="d-inline-block"/>
+      <a class="navbar-brand" href="#" style = "color:black;">
+          <img src="assets/TVlogo.jpg" alt="" width="30px" class="d-inline-block ">
           TV Series
         </a>
   </div>
 </nav>
-  <div id='body' class="row">
     <div class="col-4">
       <table id="series" class="table">
         <thead>
@@ -24,7 +23,7 @@
             <b>{{s.id}}</b>
           </td>
           <td>
-              <a href={{s.website}} target="_blank">{{ s.name }}</a>
+              <a href={{s.website}} target="_blank">{{s.name}}</a>
           </td>
           <td>{{s.channel}}</td>
           <td>{{s.seasons}}</td>
@@ -33,4 +32,3 @@
     </table>
     <p id="seasons">Seasons average: {{averageSeasons}} </p>
   </div>
-</div>
